@@ -2,7 +2,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import "./DashboardLayout.css";
 import { useAuth } from "@clerk/clerk-react";
 import { useEffect } from "react";
-import ChatList from "../../components/chatList/ChatList";
+import ChatList from "../Components/chatList/ChatList";
 
 const DashboardLayout = () => {
   const { userId, isLoaded } = useAuth();
